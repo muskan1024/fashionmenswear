@@ -252,3 +252,9 @@ form .btn button{
 form .btn button:hover{
   background: rgb(41, 41, 238);
 }
+.order{
+    width: 80vw;
+    background-color:rgb(195, 194, 194) ;
+    margin-top: 2px;
+    /* text-align: center; */
+}
