@@ -8,6 +8,7 @@
     <title>Contact Us | FMW</title>
     <link rel="stylesheet" href="icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
 </head>
 
 <body>
@@ -87,12 +88,30 @@
         </div>
     </fieldset>
     <fieldset class="group">
-        <button>Have a Doubt or any Question? | Call or Message us </button>
-        <div><a href="tel:+918857831831">To Call Click</a></div>
-        <div><a href="https://api.whatsapp.com/send?phone=+918857831831">To Message Click</a></div>
+        <!-- <button>Have a Doubt or any Question? | Call or Message us </button> -->
+        <div><a href="tel:+918857831831">Click to Call</a></div>
+        <div><a href="https://api.whatsapp.com/send?phone=+918857831831">Click To Message </a></div>
     </fieldset>
     <footer class="group2">
-        <a href="about.html">About Us |</a> <a href="index.html">Home |</a><a href="Contact.html">Contact Us</a>
+        <a href="about.html">About Us |</a> <a href="index.html">Home |</a>
+        <a><button onclick="togglehide2()" id="togglehide2">Contact Us:</button>
+            <div style="text-align:center ; ">
+                <!-- <button onclick="togglehide1()" id="togglehide1">Contact Us:</button> -->
+                <fieldset style="text-align:center ;   width: 50%;" id ="time2" class="group">
+                    <div id="clock2">Contact Us:</div>
+                    <div><i class="fa fa-phone"></i>Mobile Number:</div>
+                    <div> <a href="tel:+918855023555">+918855023555</a><!--  Badshah S:- -->
+                    <a href="tel:+918857831831">+918857831831</a><!--  Naeem S:-  -->
+                    <a href="tel:+919881987778">+919881987778</a></div><!--  Jakir S:-  -->
+                    <div>Message Us:</div>
+                    <!-- <div>SMS: <a href="tel:+918857831831">+918857831831</a></div> -->
+                    <div><i class="fa fa-whatsapp"></i>Whatsapp No: <a
+                            href="https://api.whatsapp.com/send?phone=+918857831831">+918857831831</a></div>
+                    <div><i class="fa fa-envelope"></i>Email Id:- <a
+                            href="mailto:fashionmenswear@gmail.com">fashionmenswear81019@gmail.com</a></div>
+                </fieldset>
+                </div>
+        </a>
     </footer>
     <!-- <fieldset class="group">
         <section>New User:- <a href="SignIn.html">Sign In</a></section>
