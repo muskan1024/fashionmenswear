@@ -1,5 +1,5 @@
 *{
-    /* background-color: rgb(249, 249, 249); */
+    /* background-color: rgb(212, 158, 158); */
     margin: 0%;
 }
 * a:hover{
@@ -12,12 +12,12 @@
     color: rgb(185, 9, 9);
     text-align: center;
     font-family: cursive;
-    width: 100%;
+    /* width: 100%; */
     top: 0cm;
-    padding: 0%;
+    /* padding: 0%; */
     background-color: rgb(221, 196, 245);
-    border-bottom:rgb(0, 0, 0) 1px solid;
-    margin: auto;
+    /* border-bottom:rgb(0, 0, 0) 1px solid; */
+    /* margin: auto; */
 }
 .input-field{
     width: 85%;
@@ -39,12 +39,9 @@
 .field1 .navbar img:hover{
     height: 3.5em;
 }
-/* .field1 .navbar{
-    background-color: rgb(255, 255, 255);
-} */
 .field2{
     width: 100vw;
-    border: white;
+    /* border: white; */
     margin-top: 1%;
     padding:0%;
     text-align: center;
@@ -178,7 +175,7 @@
 
 #togglehide{
     padding: 5px 10px;
-    background-color: rgb(111, 201, 201);
+    background-color: rgb(172, 238, 238);
     border: 2px solid black;
     color: rgb(16, 1, 1);
     font-weight: 900;
@@ -188,7 +185,7 @@
 }
 #togglehide1{
     padding: 5px 10px;
-    background-color: rgb(111, 201, 201);
+    background-color: rgb(175, 244, 244);
     border: 2px solid black;
     color: rgb(16, 1, 1);
     font-weight: 900;
