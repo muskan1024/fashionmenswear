@@ -12,6 +12,7 @@
     <title>FMW | Home</title>
     <link rel="stylesheet" href="icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
 </head>
 
 <body>
@@ -42,14 +43,15 @@
                 <a href="Shop.html"><button style="cursor: pointer;">See More=></button></a>
             </div>
         </fieldset>
-        <fieldset class="group">
-            <div><i class="fa fa-clock-o"></i>Shop Timing:</div>
-            <div>Monday-Friday:</div>
-            <div>9:00am - 9:00pm</div>
-            <div>Saturday-Sunday:</div>
-            <div>9:00am - 8:00pm</div>
+
+        <div style="text-align: center;">
+        <button  onclick="togglehide()" id="togglehide">Show Time</button>
+        <fieldset  class="group">
+            <div  id ="time"><i id ="clock" class="fa fa-clock-o"></i>Shop Timing: <br>Monday-Friday: 9:00am - 9:00pm <br>Saturday-Sunday: 9:00am - 8:00pm</div>
         </fieldset>
-        <fieldset style="width: 70%; margin-top: 1%;">
+        </div>
+        
+        <fieldset style="width: 70%; margin-top: 1%; border: none;">
             <div style="text-align: center; "><img class="owner" src="shopPhotos/shopnightview.jpg" alt="">
                 <h1 style="color: rgb(182, 31, 31);">Fashion Mens Wear & Collection</h1>
                 <h3> Fashion Mens Wear, Since 2000.</h3>
@@ -86,13 +88,16 @@
                             alt=""></a></div>
             </div>
         </fieldset>
-        <fieldset class="group">
-            <div>Contact Us:</div>
+        <div style="text-align:center ;">
+        <button onclick="togglehide1()" id="togglehide1">Contact Us:</button>
+        <fieldset id ="time1"class="group">
+            <div id="clock1">Contact Us:</div>
             <div><i class="fa fa-phone"></i>Mobile Number:</div>
-            <div>Badshah S:- <a href="tel:+918855023555">+918855023555</a></div>
-            <div>Naeem S:- <a href="tel:+918857831831">+918857831831</a></div>
-            <div>Jakir S:- <a href="tel:+919881987778">+919881987778</a></div>
+            <div> <a href="tel:+918855023555">+918855023555</a><!--  Badshah S:- -->
+            <a href="tel:+918857831831">+918857831831</a><!--  Naeem S:-  -->
+            <a href="tel:+919881987778">+919881987778</a></div><!--  Jakir S:-  -->
             <div>Message Us:</div>
+            <!-- <div>SMS: <a href="tel:+918857831831">+918857831831</a></div> -->
             <div><i class="fa fa-whatsapp"></i>Whatsapp No: <a
                     href="https://api.whatsapp.com/send?phone=+918857831831">+918857831831</a></div>
             <div><i class="fa fa-envelope"></i>Email Id:- <a
@@ -109,10 +114,12 @@
                 <div>Pimple Gurav, Pimpri-Chinchwad, Maharashtra 411027 </div>
             </address>
         </fieldset>
+        <!-- </fieldset> -->
+    </div>
         <fieldset class="group">
-            <button>Have a Doubt or any Question? | Call or Message us </button>
-            <div><a href="tel:+918857831831">To Call Click</a></div>
-            <div><a href="https://api.whatsapp.com/send?phone=+918857831831">To Message Click</a></div>
+            <!-- <button>Have a Doubt or any Question? | Call or Message us </button> -->
+            <div><a href="tel:+918857831831">To Call</a></div>
+            <div><a href="https://api.whatsapp.com/send?phone=+918857831831">To Message</a></div>
         </fieldset>
         <!-- <fieldset class="group" style="margin-bottom: 2%;">Review Us:
             <div>
@@ -129,5 +136,8 @@
             <section> Already have a account? <a href="Log In.html">LogIn</a></section>
         </fieldset> -->
 </body>
+<script>
+    //alert("hii");
+</script>
 
 </html>
