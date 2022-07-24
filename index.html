@@ -22,7 +22,8 @@
     </header>
     <fieldset class="field1">
         <nav class="navbar">
-            <ul style="background-color: white;">
+            <!-- <ul style="background-color: rgb(255, 255, 255);"> -->
+            <ul>
                 <li><a href="index.html"><img src="icons/outline_home_black_24dp.png" alt="Home"></a></li>
                 <li><a href="Shop.html"><img src="icons/outline_shopping_cart_black_24dp.png" alt=""></a></li>
                 <li><a href="Contact.html"><img src="icons/outline_phone_black_24dp.png" alt=""></a></li>
@@ -44,12 +45,6 @@
             </div>
         </fieldset>
 
-        <div style="text-align: center;">
-        <button  onclick="togglehide()" id="togglehide">Show Time</button>
-        <fieldset  class="group">
-            <div  id ="time"><i id ="clock" class="fa fa-clock-o"></i>Shop Timing: <br>Monday-Friday: 9:00am - 9:00pm <br>Saturday-Sunday: 9:00am - 8:00pm</div>
-        </fieldset>
-        </div>
         
         <fieldset style="width: 70%; margin-top: 1%; border: none;">
             <div style="text-align: center; "><img class="owner" src="shopPhotos/shopnightview.jpg" alt="">
@@ -88,6 +83,15 @@
                             alt=""></a></div>
             </div>
         </fieldset>
+
+        <div style="text-align: center;">
+            <button  onclick="togglehide()" id="togglehide">Show Time</button>
+            <fieldset  class="group">
+                <div  id ="time"><i id ="clock" class="fa fa-clock-o"></i>Shop Timing: <br>Monday-Friday: 9:00am - 9:00pm <br>Saturday-Sunday: 9:00am - 8:00pm</div>
+            </fieldset>
+        </div>
+
+
         <div style="text-align:center ;">
         <button onclick="togglehide1()" id="togglehide1">Contact Us:</button>
         <fieldset id ="time1"class="group">

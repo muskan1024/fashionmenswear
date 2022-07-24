@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(186, 217, 245);
+    /* background-color: rgb(249, 249, 249); */
     margin: 0%;
 }
 * a:hover{
@@ -15,6 +15,7 @@
     width: 100%;
     top: 0cm;
     padding: 0%;
+    background-color: rgb(221, 196, 245);
     border-bottom:rgb(0, 0, 0) 1px solid;
     margin: auto;
 }
@@ -32,12 +33,15 @@
     padding: 0%;
 }
 .field1{
-    border: white;
+    color: rgb(0, 0, 0);
     padding: 0%;
 }
 .field1 .navbar img:hover{
     height: 3.5em;
 }
+/* .field1 .navbar{
+    background-color: rgb(255, 255, 255);
+} */
 .field2{
     width: 100vw;
     border: white;
