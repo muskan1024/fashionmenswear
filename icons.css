@@ -14,7 +14,7 @@
     /* background-color: rgb(248, 232, 234); */
     background-color: rgb(235, 221, 249);
     width: 100;
-    /* min-width: 500px; */
+    min-width: 500px;
     text-align: center;
     /* column-fill: auto; */
 }
