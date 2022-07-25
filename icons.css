@@ -41,10 +41,11 @@
     height: 3.5em;
 }
 .field2{
-    width: 100vw;
-    /* border: white; */
-    margin-top: 1%;
-    padding:0%;
+    width: 100;
+    border:none;
+    /* margin-top: 1%; */
+    background-color: rgb(237, 237, 237);
+    /* padding-bottom:5px; */
     text-align: center;
 }
 .group{
@@ -168,12 +169,13 @@
 }
 .owner {
             /* text-align: center; */
-    border-radius: 25%;
+    border-radius: 5%;
     border: none;
     margin-top: 10px;
     height: 200px;
-    width: 70%;
+    width: 100;
     max-width: 400px;
+    min-width: 100px;
 }
 
 #togglehide{
