@@ -256,8 +256,9 @@ form .btn button:hover{
 }
 .order{
     width: 80vw;
-    background-color:rgb(195, 194, 194) ;
+    background-color:rgb(151, 162, 198) ;
     margin-top: 2px;
     max-width: 300px;
+    border: 1.5px solid black;
     /* text-align: center; */
 }
