@@ -13,8 +13,8 @@
     background-blend-mode: color;
     /* background-color: rgb(248, 232, 234); */
     background-color: rgb(235, 221, 249);
-    width: 100%;
-    min-width: 500px;
+    width: 100;
+    /* min-width: 500px; */
     text-align: center;
     /* column-fill: auto; */
 }
@@ -46,7 +46,7 @@
 .field1{
     /* color: rgb(0, 0, 0); */
     padding:0px;
-    width: 100%;
+    width: 100;
     min-width: 500px;
     border: none;
 }
