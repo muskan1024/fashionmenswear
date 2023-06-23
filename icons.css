@@ -1,19 +1,15 @@
 *{
-<<<<<<< HEAD
-=======
     /* background-color: rgb(212, 158, 158); */
     /* width: auto; */
->>>>>>> d183d480a5c4231daa46feb9371bd1d0a62e440a
     margin: 0%;
 }
 
 * a:hover{
     font-weight:800;
 }
-<<<<<<< HEAD
 fieldset{
     border: none;
-=======
+}
 html{
     display: flex;
     overflow-x: hidden;
@@ -42,7 +38,6 @@ html{
     /* border-bottom:rgb(221, 196, 245) ; */
     /* border-bottom: none; */
     margin: auto;
->>>>>>> d183d480a5c4231daa46feb9371bd1d0a62e440a
 }
 
 /* baner-start */
@@ -295,16 +290,13 @@ header.head::before{
     padding: 0%;
 }
 .field1{
-<<<<<<< HEAD
     color: rgb(0, 0, 0);
     padding: 0%;
-=======
     /* color: rgb(0, 0, 0); */
     padding:0px;
     /* width: 100; */
     min-width: 500px;
     border: none;
->>>>>>> d183d480a5c4231daa46feb9371bd1d0a62e440a
 }
 .field1 .navbar img:hover{
     height: 3.5em;
@@ -312,28 +304,22 @@ header.head::before{
 }
 
 .field2{
-<<<<<<< HEAD
     width: 100vw;
     /* border: white; */
     margin-top: 1%;
     padding:0%;
-=======
     /* width: 100; */
     border:none;
     /* margin-top: 1%; */
     /* background-color: rgb(255, 255, 255); */
     /* padding-bottom:5px; */
->>>>>>> d183d480a5c4231daa46feb9371bd1d0a62e440a
     text-align: center;
 }
 .group{
     text-align-last: center;
     margin-top: 1%;
-<<<<<<< HEAD
     width:auto;
-=======
     /* width:auto; */
->>>>>>> d183d480a5c4231daa46feb9371bd1d0a62e440a
     margin-left: 5%;
     border: none;
 }
@@ -354,7 +340,6 @@ header.head::before{
     height: 130px;
 }
 .group2{
-<<<<<<< HEAD
     /* background-color:rgb(221, 206, 206); */
     margin-top: 1%;
     /* border-top: black solid 1px; */
@@ -365,50 +350,20 @@ header.head::before{
 /* .group2 a{
     background-color: rgb(221, 206, 206);
 } */
-=======
-    background-color:rgb(221, 206, 206);
+    /* background-color:rgb(221, 206, 206);
     margin-top: 1%;
     /* width: 100; */
-    min-width: 450px;
+    /* min-width: 450px; */
     /* margin-bottom: 2% ; */
-    padding-bottom: 30px;
+    /* padding-bottom: 30px;
     border-top: black solid 1px;
     height: 50px, auto;
     padding-top: 40px;
     text-align: center;
-}
+} */ 
 .group2 a{
     background-color: rgb(221, 206, 206);
 }
->>>>>>> d183d480a5c4231daa46feb9371bd1d0a62e440a
- /* .container{
-            width: 100%;
-            text-align: center;
-            display:flexbox;
-            grid-template-columns:repeat(auto-fill, minmax(150px, 1fr));
-            grid-gap: 10px;
-            column-gap: 50px;
-}
-.item1{
-    border: 2px black solid;
-    grid-gap: 20px;
-    /* margin: auto; */
-    /* width: 50vw; */
-    /* height: 70%;
-}
-#item-1{
-    grid-column-start: 1;
-    grid-column-end: 5;
-}
-.item-1-container{
-    display: grid;
-    grid-template-columns: repeat(3,  auto);
-}
-.nested-item{ */
-    /* border: 3px black solid;
-    border-radius: 3px;
-    background-color: white;
-} */ 
 .container-1{
     display:grid;
     grid-template-columns:repeat(auto-fill, minmax(115px, 1fr));
@@ -425,18 +380,8 @@ header.head::before{
     height: auto;
 }
 .item1{
-    /* border: 1px black solid;     */
     text-align:center;
-    /* margin: auto; */
-    /* width: 50vw; */
-    /* height:fit-content; */
 }
-/* .search{
-    width: 100%;
-} */
-
-<<<<<<< HEAD
-=======
 .navbar ul{
     margin: 0%;
     padding: 0%;
@@ -466,19 +411,15 @@ header.head::before{
     height: 4px;
     text-align:center;
 }
->>>>>>> d183d480a5c4231daa46feb9371bd1d0a62e440a
 .mrp:hover{
     text-decoration:black underline;
     font-weight: bold;
 }
-<<<<<<< HEAD
-
-
 #togglehide{
     padding: 5px 10px;
     background-color: rgb(172, 238, 238);
     border: 2px solid black;
-=======
+}
 .owner {
             /* text-align: center; */
     border-radius: 5%;
@@ -496,7 +437,6 @@ header.head::before{
     background-color: rgb(68, 173, 244);
     border: 1px solid black;
     /* border: none; */
->>>>>>> d183d480a5c4231daa46feb9371bd1d0a62e440a
     color: rgb(16, 1, 1);
     font-weight: 900;
     border-radius: 4px;
@@ -505,21 +445,16 @@ header.head::before{
 }
 #togglehide1{
     padding: 5px 10px;
-<<<<<<< HEAD
     background-color: rgb(175, 244, 244);
     border: 2px solid black;
-=======
     background-color: rgb(68, 173, 244);
     border: 1px solid black;
->>>>>>> d183d480a5c4231daa46feb9371bd1d0a62e440a
     color: rgb(16, 1, 1);
     font-weight: 900;
     border-radius: 4px;
     cursor: pointer;
     /* display: none; */
 }
-<<<<<<< HEAD
-=======
 #togglehide2{
     /* padding: 5px 10px; */
     font-size:14px;
@@ -537,18 +472,9 @@ header.head::before{
 #togglehide2:hover{
     font-weight:600;
 }
->>>>>>> d183d480a5c4231daa46feb9371bd1d0a62e440a
-
 #time{
     display: none;
 }
 #time1{
     display: none;
-<<<<<<< HEAD
-=======
-}
-
-#time2{
-    display: none;
->>>>>>> d183d480a5c4231daa46feb9371bd1d0a62e440a
 }
