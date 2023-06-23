@@ -1,5 +1,4 @@
 function togglehide() {
-<<<<<<< HEAD
         // get the clock
         var myClock = document.getElementById('time');
 
@@ -47,7 +46,6 @@ function togglehide1() {
         // clockButton.innerHTML = 'Hide Time';
         }
     }
-=======
     // get the clock
     var myClock = document.getElementById('time');
 
@@ -70,7 +68,6 @@ function togglehide1() {
     // change button text
     clockButton.innerHTML = 'Hide Time';
     }
-}
 function togglehide1() {
     // get the clock
     var myClock = document.getElementById('time1');
@@ -119,4 +116,3 @@ function togglehide2() {
     // clockButton.innerHTML = 'Hide Time';
     }
 }
->>>>>>> d183d480a5c4231daa46feb9371bd1d0a62e440a
