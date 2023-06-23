@@ -1,0 +1,29 @@
+<!Doctype html>
+<html>
+<head>
+<title>SoP3 Javascript count vowels</title>
+</head>
+<body>
+<form name= "form1">
+<h1>Enter the String whose vowel is to be counted </h1>
+<input type = "text" name="text1">
+<input type="button" name="btn_checkvowel" value="Click to count" onclick="count()">
+</form>
+<script type = text/Javascript>
+function count()
+{
+var i, ch , str, counter=0;
+
+str = form1.text1.value;
+for(i=0; i < str.length; i++)
+{
+// ch = str.CharAt(i); 
+ch = str.CharAt(i);
+if(ch=='A'||ch=='a'||ch=='E'||ch=='e'||ch=='I'||ch=='i'||ch=='O'||ch=='o'||ch=='U'||ch=='u') 
+counter++ ;
+}
+alert("Number of Vowels in Entered String is:" + counter);
+}
+</script>
+</body>
+</html>
