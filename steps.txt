@@ -217,7 +217,7 @@ create 3 instance 1 manager 2 worker
     cd demoproj
 5.create file app.py requirements.txt Dockerfile docker-compose.yml
 6.build the image and push it to docker hub(create a new repo in dockerhub)
-    #docker build -t web_app
+    #docker build -t web_app .
     #docker tag web_app:latest muskanshaikh/web_app:1.0
     #docker images
     #docker login
