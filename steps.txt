@@ -34,7 +34,7 @@
 
 3.build the image
     #docker build -t imagename:tagname
-    docker build -t myimage:latest
+    docker build -t myimage:latest .
 4.create repo in docker hub 
 5.add tag to image
     # docker tag myimage:latest muskanshaikh10/secondpractical
@@ -69,11 +69,11 @@
 2.pull registry image from docker hub 
     docker pull registry or registry:latest
 3.Run the docker
-    #docker run -d -p 5000:5000 –name registry registry:latest
+    #docker run -d -p 5000:5000 –-name registry registry:latest
 4.Pull any image 
     #docker pull centos
 5.Tag the image centos to private registry
-    #sudo docker tag imageid localhost:5000/centos
+    #sudo docker tag centosid localhost:5000/centos
 6.Push the image to the private registry
     #sudo docker push localhost:5000/centos
 7.remove previous centos images 
@@ -215,10 +215,10 @@ create 3 instance 1 manager 2 worker
 4.create a directory 
     mkdir demoproj
     cd demoproj
-5.create file app.py requirements.txt Dockerfile docker-compose.yml
+5.create file app.py requirements.txt Dockerfile dockercompose.yml
 6.build the image and push it to docker hub(create a new repo in dockerhub)
     #docker build -t server:latest .
-    #docker tag server:latest muskanshaikh/server:latest
+    #docker tag server:latest muskanshaikh10/server:latest
     #docker images
     #docker login
     #docker push muskanshaikh10/server:latest
