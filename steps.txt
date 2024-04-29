@@ -217,20 +217,20 @@ create 3 instance 1 manager 2 worker
     cd demoproj
 5.create file app.py requirements.txt Dockerfile docker-compose.yml
 6.build the image and push it to docker hub(create a new repo in dockerhub)
-    #docker build -t web_app .
-    #docker tag web_app:latest muskanshaikh/web_app:1.0
+    #docker build -t server:latest .
+    #docker tag server:latest muskanshaikh/server:latest
     #docker images
     #docker login
-    #docker push muskanshaikh10/web_app:1.0
+    #docker push muskanshaikh10/server:latest
 7.Deploy the stack to the swarm and check it:
     #docker stack deploy –help
     Create the stack with docker stack deploy:
-    #docker stack deploy -c dokcer-compose.yml web_app
+    #docker stack deploy -c dockercompose.yml server
     #docker node ls
     #docker container ls
     #docker service ls
 8.Check if the application is running
-    publicIP:4000
+    publicIP:5000
 
 ---------------------------------------------------------------------------
 
